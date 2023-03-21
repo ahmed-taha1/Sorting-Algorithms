@@ -13,12 +13,11 @@ unsigned int millis_since_midnight();
 
 int main(){
     // change N it to change the sample size
-	const int N = 20;
+	const int N = 50000;
     int arr[N];
 
     // generate random numbers and fill it into the array
     random_gen(arr, N);
-
 
     // print before sort
     for(int i = 0; i < N; i++)
@@ -28,8 +27,14 @@ int main(){
     // get the time before sorting
     int start = millis_since_midnight();
     
-    // applay sort algorithm
+
+    /** applay sort algorithm **/
     SortingLib::ShellSort(arr, N);
+    // SortingLib::insertionSort(arr, N);
+    // SortingLib::BubbleSort(arr, N);
+    // SortingLib::CountSort(arr, N);
+    // SortingLib::selectionSort(arr, N);
+    // SortingLib::QuickSort(arr, N);
 
     // get the time after sorting
     int end = millis_since_midnight();
