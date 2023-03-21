@@ -14,9 +14,9 @@ void ShellSort(T* arr, const int& size){
     }
 }
 
-int main(){
-    int u[] = {3, 4, 16, 1, 22};
-    ShellSort(u, 5);
-    for(int i = 0; i < 5; i++)
-        cout << u[i] << ' ';
-}
+// int main(){
+//     int u[] = {3, 4, 16, 1, 22};
+//     ShellSort(u, 5);
+//     for(int i = 0; i < 5; i++)
+//         cout << u[i] << ' ';
+// }

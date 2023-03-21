@@ -24,9 +24,9 @@ void CountSort(int arr[], const int& size){
     }
 }
 
-int main(){
-    int k[] = {4, 5, 6, 2, 1};
-    CountSort(k, 5);
-    for(int i = 0; i < 5; i++)
-        cout << k[i] << ' ';
-}
+// int main(){
+//     int k[] = {4, 5, 6, 2, 1};
+//     CountSort(k, 5);
+//     for(int i = 0; i < 5; i++)
+//         cout << k[i] << ' ';
+// }

@@ -14,10 +14,11 @@ void BubbleSort(T* arr , int size){
             break;
     }
 }
-int main() {
-    int arr[] = {9,7,8,5,4,3,2,-1,1};
-    BubbleSort(arr,9);
-    for (int i = 0; i < 9; ++i) {
-        cout<<arr[i]<<" ";
-    }    return 0;
-}
+
+// int main() {
+//     int arr[] = {9,7,8,5,4,3,2,-1,1};
+//     BubbleSort(arr,9);
+//     for (int i = 0; i < 9; ++i) {
+//         cout<<arr[i]<<" ";
+//     }    return 0;
+// }
