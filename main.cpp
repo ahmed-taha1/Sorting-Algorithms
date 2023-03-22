@@ -29,12 +29,13 @@ int main(){
     
 
     /** applay sort algorithm **/
-    SortingLib::ShellSort(arr, N);
+    // SortingLib::ShellSort(arr, N);
     // SortingLib::insertionSort(arr, N);
     // SortingLib::BubbleSort(arr, N);
     // SortingLib::CountSort(arr, N);
     // SortingLib::selectionSort(arr, N);
     // SortingLib::QuickSort(arr, N);
+    SortingLib::merge_sort(arr, N);
 
     // get the time after sorting
     int end = millis_since_midnight();
